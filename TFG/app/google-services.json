@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758119779766",
+    "project_id": "databasetfg",
+    "storage_bucket": "databasetfg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758119779766:android:1bce9178ad14a57fa9c517",
+        "android_client_info": {
+          "package_name": "com.example.tfg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxuuVw05BQkghiuL2yh0SPcx2t394ybAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Opciones">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="195dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="409dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_estadisticas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#1E3984"
+            android:fontFamily="@font/timesnewromance"
+            android:text="Estadisticas jugadores"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_juego"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#1E3983"
+            android:fontFamily="@font/timesnewromance"
+            android:text="Juego"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_juegosin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#1E3984"
+            android:fontFamily="@font/timesnewromance"
+            android:text="Juego sin conexion"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_modificarUser"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="👤"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+</androidx.constraintlayout.widget.ConstraintLayout>

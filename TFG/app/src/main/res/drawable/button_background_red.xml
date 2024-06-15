@@ -1,0 +1,5 @@
+<!-- res/drawable/button_background_red.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF0000" /> <!-- Fondo rojo, puedes cambiar el color según tus preferencias -->
+    <corners android:radius="8dp" /> <!-- Radio de las esquinas, puedes ajustarlo según tus necesidades -->
+</shape>
